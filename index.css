@@ -1,0 +1,727 @@
+ 
+ html,body,.website{ 
+    height: 100%; 
+    margin: 0; 
+    padding: 0;
+} 
+.website{ 
+    display: flex; 
+    flex-direction: column;  
+    align-items: center;
+    
+
+} 
+
+.header{ 
+    display: flex ;
+    align-items: center; 
+    height: 70px; 
+    justify-content: space-around; 
+    margin-top: 20px; 
+    gap: 40px;
+} 
+
+.header-services{ 
+    display: flex; 
+    gap: 20px;
+}  
+
+.header-services div{ 
+    font-family: 'Manrope', sans-serif;
+}
+
+.header-login-register{ 
+    display: flex; 
+    gap: 30px;  
+    align-items: center; 
+    font-family: 'Manrope', sans-serif;
+} 
+
+.register{ 
+    background: rgba(60, 147, 121, 1);
+    padding: 10px 15px; 
+    border-radius: 8px; 
+    color: white; 
+    font-family: 'Manrope', sans-serif;
+} 
+
+.main-1{ 
+    display: flex;  
+    align-items: center; 
+    justify-content: center;
+    
+}  
+.main1-con1{ 
+    display: flex; 
+    flex-direction: column; 
+    gap: 20px;
+}
+
+.main1-con1-title1{ 
+    color:black; 
+    font-family: 'Manrope', sans-serif; 
+    font-size: xx-large; 
+    font-weight: bolder;
+} 
+
+.main1-con1-title2{ 
+    color: rgba(60, 147, 121, 1);
+    font-family: 'Manrope', sans-serif; 
+    font-size: xx-large; 
+    font-weight: bolder;
+} 
+
+.main1-con1-text1,.main1-con1-text2{ 
+    font-family: 'Manrope', sans-serif; 
+    color: rgba(83, 90, 86, 1);
+    
+}  
+
+.main1-con1-shopping-button{ 
+    background: rgba(60, 147, 121, 1);
+    border-radius: 8px; 
+    padding: 10px 15px 15px ;
+    width: 120px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    color: white; 
+    font-family: 'Manrope', sans-serif; 
+} 
+
+.main1-con2 img{ 
+     width: 800px; 
+     height: 500px;
+}
+ 
+.Collab{ 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 35px;
+} 
+
+.collab-title1,.collab-title2{ 
+    font-family: 'Manrope', sans-serif; 
+    font-size: x-large; 
+    font-weight: bold;
+} 
+
+.brands-field{ 
+    display: flex ;
+    align-items: center; 
+    justify-content: center; 
+    gap: 35px;
+} 
+
+.textof{ 
+    margin-top: 50px; 
+    font-family: 'Manrope', sans-serif;  
+    font-weight: bold; 
+    font-size: x-large; 
+    margin-left: 200px;
+} 
+
+.categories{ 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 15px; 
+    margin-bottom: 50px;
+} 
+
+.categories-box1{ 
+    display: flex; 
+    flex-direction: column; 
+    gap: 15px; 
+    align-items: center; 
+    justify-content: center;
+} 
+
+.categories-box2{ 
+    display: flex; 
+    gap: 15px; 
+    align-items: center; 
+    justify-content: center;
+} 
+
+.whychoosebachira{ 
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+} 
+
+.reasons{ 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    font-family: 'Manrope', sans-serif;   
+    margin-top: 50px; 
+    gap: 50px;
+} 
+
+.reasons-header{ 
+    display: flex; 
+    flex-direction: column; 
+    gap:15px; 
+    justify-content: center; 
+    align-items: center; 
+    font-family: 'Manrope', sans-serif;  
+    font-weight: bold; 
+    font-size: larger;
+} 
+
+.reason-op{ 
+    color: grey; 
+    text-align: center;
+} 
+
+.big-con-title{ 
+    font-family: 'Manrope', sans-serif; 
+    font-size: x-large;  
+    font-weight: bold;
+
+} 
+.big-con-con{ 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 50px;
+}  
+
+.big-con-box{ 
+    font-family: 'Manrope', sans-serif;  
+}
+
+.big-con-header{ 
+    margin-top: 50px; 
+    margin-left: 150px; 
+    margin-bottom: 20px;
+} 
+
+.footer{ 
+    margin-top: 100px; 
+    margin-left: 140px; 
+    display: flex; 
+    gap: 40px;
+} 
+
+.footer-box1{ 
+    font-family: 'Manrope', sans-serif;  
+    color: gray; 
+    
+}  
+.footer-box2,.footer-box3,.footer-box4,.footer-box5{ 
+    display: flex; 
+    flex-direction: column; 
+    gap: 30px;
+} 
+.text-header{ 
+    font-family: 'Manrope', sans-serif;   
+    font-weight: bolder;
+} 
+.footer-box-text{ 
+    color: gray; 
+    font-family: 'Manrope', sans-serif;   
+}  
+
+.reason1,.reason2,.reason3{ 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;
+} 
+
+
+     
+
+
+
+@media(max-width:1200px){ 
+    .big-con-box img{ 
+        width: 200px ; 
+        height: 200px;
+    } 
+
+    .categories-box1, img{ 
+       width: 400px;
+    } 
+
+    .categories-box2 img{ 
+        height: 300px; 
+        width: 300px;
+    } 
+
+    .reasons-header img{ 
+        width: 70px; 
+        height: 70px; 
+    } 
+
+    .brands-field img{ 
+       width: 170px;
+    } 
+
+    .header-img img{ 
+        width: 200px; 
+        height: 50px;
+    } 
+
+    .footer-box1 img{ 
+        width: 300px; 
+        height: 70px;
+    } 
+
+    .footer-box-text{ 
+        font-size: small;
+    }
+} 
+
+@media (max-width:1000px){ 
+    .categories-box1 img{ 
+        width: 280px;
+    } 
+    .categories-box1{ 
+        width: 300px;
+    }
+     .categories-box2 img{ 
+       width: 200px; 
+       height: 200px;
+     } 
+
+     .categories{ 
+        margin-left: 70px;
+     } 
+     .brands-field img{ 
+        width: 130px;
+     } 
+
+     .whychoosebachira img{ 
+        width: 290px; 
+        
+     } 
+     .reasons-header img{ 
+        width: 55px; 
+        height: 55px;
+     } 
+
+     .big-con-con{ 
+        margin-left: 70px;
+     }
+     .big-con-box img{ 
+        width: 160px; 
+        height: 160px;
+     } 
+     .footer-box1 img{ 
+        width: 270px; 
+        height: 60px;
+     } 
+     .header-img img{ 
+        width: 130px;  
+        height: 30px;
+
+     } 
+
+     .main1-con2 img{ 
+        width: 600px; 
+        height: auto;
+     }
+}
+ 
+@media (max-width:800px){ 
+    .brands-field img{ 
+        width: 90px;
+    } 
+    .header-img img{ 
+        width: 100px;
+        height: 20px;
+    } 
+    .main1-con2 img{ 
+        width: 400px;
+    } 
+
+    .main1-con1-title1,.main1-con1-title2{ 
+        font-size: x-large;
+    } 
+
+    .main1-con1-text1, .main1-con1-text2{ 
+        font-size: medium;
+    } 
+
+    .main1-con1-shopping-button{ 
+        font-size: small; 
+        padding: 5px 8px 10px;
+    } 
+   
+} 
+
+
+@media(max-width:799px){ 
+    .login{ 
+     font-size: smaller;   
+    } 
+
+    .register{ 
+        font-size: small;
+    } 
+
+    .header-services{ 
+        font-size: small;
+    } 
+
+    .header-img img{ 
+        width: 60px; 
+        height: auto;
+    } 
+    .main1-con1-title1,.main1-con1-title2{ 
+        font-size: large;
+    } 
+    .main1-con1-text1, .main1-con1-text2{ 
+        font-size: smaller;
+    } 
+    .collab-title1,.collab-title2{ 
+        font-size: large;
+    } 
+
+    .brands-field img{ 
+        width: 70px;
+    } 
+
+    .textof-text1,.textof-text2{ 
+        font-size: large;
+    }  
+
+    .categories-box1 img{ 
+        width: 220px;
+    } 
+
+    .categories-box2 img{
+         width: 170px; 
+         height: 170px;
+    } 
+
+    .whychoosebachira img{ 
+        width: 230px;
+    } 
+
+    .reasons-header img{ 
+        width: 40px;  
+        height: 40px;
+    } 
+    .reasons-header div{ 
+        font-size: medium;
+    } 
+
+    .reason-op{ 
+        font-size: small;
+    } 
+
+    .big-con-title{ 
+        font-size: large;
+    } 
+
+    .big-con-box img{ 
+        width: 130px; 
+        height: 130px;
+    } 
+
+    .big-con-box div{ 
+        font-size: small;
+    } 
+
+    .footer-box1 img{ 
+        width: 130px; 
+        height: auto;
+    } 
+    .footer-box1 div{ 
+        font-size: smaller;
+    } 
+
+    .text-header{ 
+        font-size: small;
+    } 
+    .footer-box-text{ 
+        font-size: smaller;
+    }
+
+} 
+
+@media (max-width:625px){ 
+    .categories{ 
+        flex-direction: column;
+    } 
+
+    .categories-box1 img { 
+        width: 200px;
+    } 
+
+    .categories-box2 img{ 
+        width: 120px; 
+        height: 120px;
+    } 
+
+    .header-img img { 
+        width: 40px;
+    } 
+
+    .header-services div{ 
+        font-size: smaller;
+    } 
+
+    .login{
+        font-size: x-small;
+    } 
+    .register{ 
+        font-size: x-small;
+    } 
+
+    .main1-con2 img { 
+        width: 300px;
+    } 
+    .main1-con1-title1,.main1-con1-title2{ 
+        font-size: small;
+    } 
+
+    .main1-con1-text1, .main1-con1-text2{ 
+        font-size: x-small;
+    } 
+
+    .main1-con1-shopping-button{ 
+        font-size: x-small; 
+        width: 100px; 
+        padding: 2px 4px 5px;
+    } 
+
+    .collab-title1,.collab-title2{ 
+        font-size: smaller;
+    } 
+
+    .brands-field img { 
+        width: 60px;
+    } 
+
+    .textof{ 
+        margin: 0; 
+        margin-top: 10px;  
+        margin-bottom: 10px;
+        
+    } 
+    
+        
+    
+
+    .whychoosebachira img { 
+        width: 180px;
+    } 
+
+    .reasons-header img{ 
+        width: 30px; 
+        height: 30px;
+    } 
+
+    .reasons-header div{ 
+        font-size: small;
+    } 
+    .reason-op{ 
+        font-size: x-small;
+    } 
+
+    .big-con-header{ 
+        margin: 0; 
+        margin-top: 10px; 
+        margin-bottom: 10px; 
+        
+    } 
+
+    .big-con-title{ 
+        font-size: medium;
+    } 
+
+    .big-con-box img { 
+        width: 100px; 
+        height: 100px;
+    } 
+    .big-con-box div{ 
+        font-size: x-small;
+    } 
+
+    .footer-box1 img{ 
+        width: 70px;
+    } 
+    .footer-box1 div{ 
+        font-size:  x-small;
+    } 
+
+    .text-header {
+        font-size: x-small;
+    } 
+
+    .footer-box-text{ 
+        font-size: x-small;
+    } 
+
+    .footer{ 
+        margin-left: 50px; 
+        margin-top: 70px; 
+        gap: 20px;
+    } 
+
+    .footer-box2,.footer-box3,.footer-box4,.footer-box5{ 
+        gap: 20px;
+    } 
+    .big-con-con{ 
+        margin-left: 30px;
+    } 
+
+    .header{
+        gap: 20px;
+    } 
+
+    .big-con-con{ 
+        gap: 30px; 
+        width: 400px; 
+        
+    } 
+    .header-login-register{
+        flex-direction: column; 
+        gap: 5px;
+    } 
+
+    .register{ 
+        width: 40px; 
+        padding: 2px 5px 4px;
+    } 
+
+    .main1-con1{ 
+        width: 150px;
+    }
+} 
+
+@media (max-width:500px){ 
+    .reasons-header img{ 
+        width: 25px; 
+        height: 25px;
+    } 
+    .reasons-header div{ 
+        font-size: x-small;
+    } 
+
+    .reason-op{ 
+        font-size: xx-small;
+    } 
+    .reasons{ 
+        gap: 5px;
+    } 
+
+    .whychoosebachira img { 
+        width: 140px;
+    } 
+    .categories{ 
+        margin: 0; 
+        margin-bottom: 10px;
+    } 
+    .categories-box1 img { 
+        width: 170px;
+    } 
+    .categories-box2 img { 
+        width: 100px;
+        height: 100px;
+    } 
+    .textof-text1,.textof-text2{ 
+        font-size: 12px;
+    } 
+
+    .collab-title1,.collab-title2{ 
+        font-size: x-small;
+    } 
+    .main1-con2 img { 
+        width: 200px;
+    } 
+    .main1-con1{ 
+        gap: 10px; 
+        margin-bottom: 15px;
+    } 
+
+    .main1-con1-title1,.main1-con1-title2{ 
+        font-size: x-small;
+    } 
+
+    .main1-con1-text1,.main1-con1-text2{ 
+        font-size: xx-small;
+    } 
+    .brands-field img { 
+        width: 40px;
+    } 
+
+    .textof-text1,.textof-text2{ 
+        font-size: x-small;
+    } 
+    .big-con-title{ 
+        font-size: x-small;
+    } 
+    .big-con-box img { 
+        width: 70px; 
+        height: 70px;
+    } 
+    .big-con-box div{ 
+        font-size: xx-small;
+    } 
+    .footer-box1 img { 
+        width: 50px;
+    } 
+    .footer-box1 div { 
+        font-size: xx-small;
+    } 
+
+    
+       
+
+    .text-header{ 
+
+        font-size: x-small;
+    } 
+    .footer-box-text{ 
+        font-size: xx-small;
+    } 
+   
+    .header{ 
+        gap: 10px;
+    } 
+    .header-services{ 
+        gap: 10px; 
+        font-size: x-small;
+    }
+    .header-img img { 
+        width: 35px;
+    } 
+    .big-con-con{ 
+        margin-left: 0; 
+        gap: 10px;
+    } 
+    .reasons{ 
+        flex-direction: column;
+    }
+} 
+ 
+@media (max-width:370px){ 
+  .main1-con2 img { 
+    width: 160px;
+  } 
+
+  .brands-field { 
+    gap: 20px;
+  } 
+  .footer{ 
+    gap: 10px;
+  } 
+  .big-con-con{ 
+   gap: 5px;
+  }
+} 
+
+@media (max-width:320px){ 
+    .big-con-con{ 
+        flex-direction: column; 
+        gap: 30px;
+    }
+}
